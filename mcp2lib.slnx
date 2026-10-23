@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Mcp2Lib/Mcp2Lib.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FixtureServer/FixtureServer.csproj" />
+    <Project Path="tests/Mcp2Lib.Tests/Mcp2Lib.Tests.csproj" />
+  </Folder>
+</Solution>

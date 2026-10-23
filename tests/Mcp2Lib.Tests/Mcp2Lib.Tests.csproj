@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit.v3" Version="4.0.1" />
+    <ProjectReference Include="..\..\src\Mcp2Lib\Mcp2Lib.csproj" />
+    <ProjectReference Include="..\FixtureServer\FixtureServer.csproj" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+</Project>
